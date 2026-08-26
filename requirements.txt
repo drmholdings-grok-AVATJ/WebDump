@@ -1,0 +1,10 @@
+requests>=2.31
+beautifulsoup4>=4.12
+colorama>=0.4
+pyfiglet>=1.0
+
+# Optional, enable --minify and image optimization. The app runs without
+# these; it just skips the corresponding transform and warns once.
+rcssmin>=1.1
+rjsmin>=1.2
+Pillow>=10.0
