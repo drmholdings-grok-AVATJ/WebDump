@@ -2,6 +2,7 @@ requests>=2.31
 beautifulsoup4>=4.12
 colorama>=0.4
 pyfiglet>=1.0
+truststore>=0.9
 
 # Optional, enable --minify and image optimization. The app runs without
 # these; it just skips the corresponding transform and warns once.

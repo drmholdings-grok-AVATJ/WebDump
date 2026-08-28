@@ -21,6 +21,12 @@ from colorama import Fore, Style
 colorama.init()
 
 try:
+    import truststore
+    truststore.inject_into_ssl()
+except ImportError:
+    pass
+
+try:
     import rcssmin
     HAVE_RCSSMIN = True
 except ImportError:
